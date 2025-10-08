@@ -1,0 +1,26 @@
+/* Center box on screen */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f9;
+}
+
+.login-container {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 300px;
+  background: #fff;
+  text-align: center;
+}
+
+/* 🔹 Media Query for small screens */
+@media (max-width: 400px) {
+  .login-container {
+    width: 90%;   /* shrink box */
+    padding: 15px;
+  }
+}
